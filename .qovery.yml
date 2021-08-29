@@ -1,0 +1,12 @@
+---
+application:
+  name: "mesh-renamebot"
+  project: "rename"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-mesh-renamebot"
+  routes:
+  - application_name: "mesh-renamebot"
+    paths:
+    - "/*"
+    
